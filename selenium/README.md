@@ -52,3 +52,10 @@ First you find the element you wish to perform some action upon. You can find el
 * by XPath: `google = browser.find_element_by_xpath('//button[@class=\'google\']')`
 * by id: `email = browser.find_element_by_id('Email')`
 * and many more ways, [documented here](http://selenium-python.readthedocs.org/en/latest/locating-elements.html).
+
+Then you perform the sections. You can
+
+* click: `google.click()`
+* type: `email.send_keys(config[USERNAME])`
+* clear a form or text area: `element.clear()`
+* and more, [documented here](http://selenium-python.readthedocs.org/en/latest/navigating.html)
