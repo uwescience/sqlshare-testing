@@ -23,7 +23,7 @@ I found [these Python instructions](http://python.dzone.com/articles/python-gett
 This will:
 
 1. open a new Chrome window. (Note this instance of Chrome shares no state with your Chrome, thus it is a separate process and has no access to your cookies, etc.)
-2. Navigate to [SQLShare](sqlshare.escience.washington.edu)'s login screen.
+2. Navigate to [SQLShare](https://sqlshare.escience.washington.edu)'s login screen.
 3. Choose the Google option.
 4. Login with the credentials supplied in `sqlshare-selenium.cfg`.
 5. Approve using SQLShare with those Google credentials.
