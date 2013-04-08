@@ -2,10 +2,14 @@
 
 ## Useful Resources
 * [Selenium project page](seleniumhq.org)
-* [Instructions for installing Selenium with Python](http://python.dzone.com/articles/python-getting-started) ; they basically translated directly into MacPorts
+* [Instructions for installing Selenium with Python](http://python.dzone.com/articles/python-getting-started)
 * [ChromeDriver bindings for Selenium](https://code.google.com/p/selenium/wiki/ChromeDriver)
 
 ## Getting started
+
+### Setup Selenium with Python bindings on your machine
+
+I found [these Python instructions](http://python.dzone.com/articles/python-getting-started) easy to follow, and they translated directly into MacPorts from Ubuntu.
 
 ### Download the Chrome Webdriver bindings
 
