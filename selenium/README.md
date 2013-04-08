@@ -53,7 +53,7 @@ First you find the element you wish to perform some action upon. You can find el
 * by id: `email = browser.find_element_by_id('Email')`
 * and many more ways, [documented here](http://selenium-python.readthedocs.org/en/latest/locating-elements.html).
 
-Then you perform the sections. You can
+Then you perform the actions. You can
 
 * click: `google.click()`
 * type: `email.send_keys(config[USERNAME])`
