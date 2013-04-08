@@ -2,7 +2,9 @@
 
 import ConfigParser
 import sys
+
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 
 USERNAME="username"
 PASSWORD="password"
@@ -46,9 +48,9 @@ The configuration file has the format:
 
     # Find the Password field
     passwd = browser.find_element_by_id('Passwd')
-    # Type in the email address
+    # Type in the password
     passwd.send_keys(config[PASSWORD])
-    passwd.send_keys('\r\n')
+    passwd.send_keys(Keys.RETURN)
 
     # Find the Allow button
     approve = browser.find_element_by_id('approve_button')
